@@ -1,0 +1,40 @@
+.tag-filter {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tag-filter h2 {
+  margin: 0 0 16px;
+  color: #333;
+  font-size: 1.25rem;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag-chip {
+  padding: 6px 12px;
+  border-radius: 16px;
+  border: 1px solid #e0e0e0;
+  background: #f5f5f5;
+  color: #333;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: all 0.2s;
+}
+
+.tag-chip:hover {
+  background: #e8f5e9;
+  border-color: #66bb6a;
+}
+
+.tag-chip.selected {
+  background: #66bb6a;
+  color: white;
+  border-color: #43a047;
+}
